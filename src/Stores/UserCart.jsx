@@ -6,15 +6,27 @@ import "../App.css";
 const UserCart = () => {
   const { cartItems, removeFromCart } = useCart();
 
-  const totalAmount = cartItems.reduce((acc, item) => {
-    return acc + item.price * item.quantity;
+  const totalMrp = cartItems.reduce((acc, item) => {
+    return acc + item.mrp * item.quantity;
   }, 0);
+
+  const totalAmount = cartItems.reduce((acc, item) => {
+    return acc + (item.price * item.quantity) / 20;
+  }, 0);
+
+  const totalSavings = totalMrp - totalAmount;
 
   return (
     <div>
       <NavBar />
 
-      <h2 className="CartStyle">Your Cart</h2>
+      <div className="prize">
+        <h2 className="CartStyle">Your Cart</h2>
+        <div className="total-section">
+          <h2>Total: ${totalAmount}</h2>
+          <p> you saved : ${totalSavings}</p>
+        </div>
+      </div>
 
       {cartItems.length === 0 ? (
         <p className="CartStyle">Your cart is empty 🛒</p>
@@ -42,10 +54,6 @@ const UserCart = () => {
               </div>
             </div>
           ))}
-
-          <div className="total-section">
-            <h2>Total: ${totalAmount}</h2>
-          </div>
         </>
       )}
     </div>
