@@ -24,7 +24,7 @@ const UserCart = () => {
         <h2 className="CartStyle">Your Cart</h2>
         <div className="total-section">
           <h2>Total: ${totalAmount}</h2>
-          <p> you saved : ${totalSavings}</p>
+          <p className="para1"> you saved : ${totalSavings}</p>
         </div>
       </div>
 
