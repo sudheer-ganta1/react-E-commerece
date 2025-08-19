@@ -12,17 +12,17 @@ const Mobiles = () => {
           return (
             <div className="Mainsection">
               <div className="" key={item.id}>
-                <div className="SectionName1">{item.mobileName}</div>
+                <div className="SectionName1">{item.Name}</div>
                 <Link to={`/mobiles/${item.id}`}>
                   <div className="DivImg">
-                    <img src={item.Image} alt={item.mobileName} />
+                    <img src={item.Image} alt={item.Name} />
                   </div>
                 </Link>
                 <div className="prices">
                   <div className="price">${item.price}</div>
                   <div className="">final price: ${item.discountRate}</div>
                 </div>
-                <Link to={`/computer/${item.id}`}>
+                <Link to={`/computer/${item.id}`} className="link">
                   <div className="explore">
                     <button className="button">explore</button>
                   </div>

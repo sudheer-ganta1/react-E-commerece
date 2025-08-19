@@ -12,17 +12,17 @@ const WomenFashion = () => {
           return (
             <div className="Mainsection">
               <div className="" key={item.id}>
-                <div className="SectionName1">{item.productName}</div>
+                <div className="SectionName1">{item.Name}</div>
                 <Link to={`/women/${item.id}`}>
                   <div className="DivImg">
-                    <img src={item.Image} alt={item.productName} />
+                    <img src={item.Image} alt={item.Name} />
                   </div>
                 </Link>
                 <div className="prices">
                   <div className="price">${item.price}</div>
                   <div className="">final price: ${item.mrp}</div>
                 </div>
-                <Link to={`/women/${item.id}`}>
+                <Link to={`/women/${item.id}`} className="link">
                   <div className="explore">
                     <button className="button">explore</button>
                   </div>

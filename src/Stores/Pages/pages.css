@@ -95,6 +95,10 @@ img {
   background-color: rgba(128, 128, 128, 0.625);
   transition: all 0.3s ease-in-out;
 }
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 
 .button:hover {
   transform: scale(1.09);

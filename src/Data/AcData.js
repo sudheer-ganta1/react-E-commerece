@@ -1,7 +1,7 @@
 export const ACData = [
   {
     id: 1,
-    acName: "LG 1.5 Ton 5 Star Inverter Split AC",
+    Name: "LG 1.5 Ton 5 Star Inverter Split AC",
     description:
       "Dual Inverter, AI+ Cooling, 4-Way Swing, Anti-Bacterial Filter.",
     price: 42999,
@@ -11,7 +11,7 @@ export const ACData = [
   },
   {
     id: 2,
-    acName: "Samsung 1.5 Ton 3 Star Inverter AC",
+    Name: "Samsung 1.5 Ton 3 Star Inverter AC",
     description:
       "Digital Inverter, Convertible 5-in-1 Cooling, Copper Condenser.",
     price: 34999,
@@ -21,7 +21,7 @@ export const ACData = [
   },
   {
     id: 3,
-    acName: "Voltas 1 Ton 3 Star Window AC",
+    Name: "Voltas 1 Ton 3 Star Window AC",
     description: "High Ambient Cooling, Copper Condenser, Dust Filter.",
     price: 27999,
     mrp: 30999,
@@ -30,7 +30,7 @@ export const ACData = [
   },
   {
     id: 4,
-    acName: "Daikin 1.5 Ton 5 Star Split AC",
+    Name: "Daikin 1.5 Ton 5 Star Split AC",
     description: "Neo Swing Compressor, PM 2.5 Filter, Power Chill Mode.",
     price: 45999,
     mrp: 52999,
@@ -39,7 +39,7 @@ export const ACData = [
   },
   {
     id: 5,
-    acName: "Blue Star 1.2 Ton 4 Star Split AC",
+    Name: "Blue Star 1.2 Ton 4 Star Split AC",
     description: "Turbo Cool, Anti-Corrosive Blue Fins, Dust Filter.",
     price: 33999,
     mrp: 37999,
@@ -48,7 +48,7 @@ export const ACData = [
   },
   {
     id: 6,
-    acName: "Whirlpool 1.5 Ton 3 Star AC",
+    Name: "Whirlpool 1.5 Ton 3 Star AC",
     description: "6th Sense FastCool Technology, Copper Condenser.",
     price: 32999,
     mrp: 36999,
@@ -57,7 +57,7 @@ export const ACData = [
   },
   {
     id: 7,
-    acName: "Hitachi 1.5 Ton 5 Star Inverter AC",
+    Name: "Hitachi 1.5 Ton 5 Star Inverter AC",
     description: "Expandable Inverter, Ice Clean Function, Copper Coil.",
     price: 46999,
     mrp: 52999,
@@ -66,7 +66,7 @@ export const ACData = [
   },
   {
     id: 8,
-    acName: "Carrier 1 Ton 3 Star Split AC",
+    Name: "Carrier 1 Ton 3 Star Split AC",
     description: "Flexicool Technology, Copper Condenser, Dust Filter.",
     price: 29999,
     mrp: 33999,
@@ -75,7 +75,7 @@ export const ACData = [
   },
   {
     id: 9,
-    acName: "Godrej 1.5 Ton 3 Star Window AC",
+    Name: "Godrej 1.5 Ton 3 Star Window AC",
     description: "Eco-Friendly R32 refrigerant, Copper Condenser.",
     price: 27999,
     mrp: 31999,
@@ -84,7 +84,7 @@ export const ACData = [
   },
   {
     id: 10,
-    acName: "Panasonic 1.5 Ton 5 Star Split AC",
+    Name: "Panasonic 1.5 Ton 5 Star Split AC",
     description: "Wi-Fi Enabled, AI Convertible Cooling, PM 2.5 Filter.",
     price: 48999,
     mrp: 54999,

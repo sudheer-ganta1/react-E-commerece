@@ -1,7 +1,7 @@
 export const WatchesData = [
   {
     id: 1,
-    watchName: "Fossil Gen 6 Smartwatch",
+    Name: "Fossil Gen 6 Smartwatch",
     description: "AMOLED Display, Heart Rate, GPS, Notifications.",
     price: 18999,
     mrp: 22999,
@@ -10,7 +10,7 @@ export const WatchesData = [
   },
   {
     id: 2,
-    watchName: "Casio G-Shock",
+    Name: "Casio G-Shock",
     description: "Shock Resistant, Water Resistant up to 200m.",
     price: 8999,
     mrp: 9999,
@@ -19,7 +19,7 @@ export const WatchesData = [
   },
   {
     id: 3,
-    watchName: "Titan Analog Men’s Watch",
+    Name: "Titan Analog Men’s Watch",
     description: "Leather strap, Quartz movement.",
     price: 3499,
     mrp: 3999,
@@ -28,7 +28,7 @@ export const WatchesData = [
   },
   {
     id: 4,
-    watchName: "Apple Watch Series 9",
+    Name: "Apple Watch Series 9",
     description: "Always-On Retina Display, GPS + Cellular.",
     price: 41999,
     mrp: 45999,
@@ -37,56 +37,56 @@ export const WatchesData = [
   },
   {
     id: 5,
-    watchName: "Rolex Submariner",
+    Name: "Rolex Submariner",
     description: "Luxury automatic watch with stainless steel body.",
     price: 750000,
     mrp: 800000,
-    Image: "/Images/Watches/rolexsubmariner.webp",
+    Image: "/Images/Watches/Fossil Gen 6 Smartwatch.jpg", // reused from id:1
     category: "Luxury",
   },
   {
     id: 6,
-    watchName: "Seiko Chronograph",
+    Name: "Seiko Chronograph",
     description: "Chronograph function with tachymeter bezel.",
     price: 24999,
     mrp: 28999,
-    Image: "/Images/Watches/seiko.webp",
+    Image: "/Images/Watches/Casio G-Shock.jpg", // reused from id:2
     category: "Chronograph",
   },
   {
     id: 7,
-    watchName: "Timex Expedition",
+    Name: "Timex Expedition",
     description: "Durable outdoor watch with Indiglo light.",
     price: 4999,
     mrp: 5999,
-    Image: "/Images/Watches/timexexpedition.webp",
+    Image: "/Images/Watches/Titan Analog Men’s Watch.webp", // reused from id:3
     category: "Casual",
   },
   {
     id: 8,
-    watchName: "Michael Kors Women’s Watch",
+    Name: "Michael Kors Women’s Watch",
     description: "Rose gold stainless steel bracelet design.",
     price: 15999,
     mrp: 17999,
-    Image: "/Images/Watches/michaelkors.webp",
+    Image: "/Images/Watches/Apple Watch Series 9.jpg", // reused from id:4
     category: "Women",
   },
   {
     id: 9,
-    watchName: "Omega Speedmaster",
+    Name: "Omega Speedmaster",
     description: "Moonwatch, automatic chronograph.",
     price: 550000,
     mrp: 600000,
-    Image: "/Images/Watches/omega.webp",
+    Image: "/Images/Watches/Fossil Gen 6 Smartwatch.jpg", // reused from id:1
     category: "Luxury",
   },
   {
     id: 10,
-    watchName: "Boat Xtend Smartwatch",
+    Name: "Boat Xtend Smartwatch",
     description: "Alexa Built-in, SpO2, Heart Rate Monitoring.",
     price: 2999,
     mrp: 4999,
-    Image: "/Images/Watches/boatxtend.webp",
+    Image: "/Images/Watches/Casio G-Shock.jpg", // reused from id:2
     category: "Smartwatch",
   },
 ];

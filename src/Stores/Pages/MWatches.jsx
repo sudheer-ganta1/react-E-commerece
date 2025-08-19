@@ -13,10 +13,10 @@ const MWatches = () => {
           return (
             <div className="Mainsection">
               <div className="" key={item.id}>
-                <div className="SectionName1">{item.watchName}</div>
+                <div className="SectionName1">{item.Name}</div>
                 <Link to={`/watches/${item.id}`}>
                   <div className="DivImg">
-                    <img src={item.Image} alt={item.watchName} />
+                    <img src={item.Image} alt={item.Name} />
                   </div>
                 </Link>
 
@@ -24,7 +24,7 @@ const MWatches = () => {
                   <div className="price">${item.price}</div>
                   <div className="">final price: ${item.mrp}</div>
                 </div>
-                <Link to={`/computer/${item.id}`}>
+                <Link to={`/computer/${item.id}`} className="link">
                   <div className="explore">
                     <button className="button">explore</button>
                   </div>

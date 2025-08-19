@@ -19,11 +19,11 @@ const WomenFashion = () => {
                   <img
                     className="MobileImgs"
                     src={item.Image}
-                    alt={item.productName}
+                    alt={item.Name}
                   />
                 </div>
               </Link>
-              <div className="MobileName">{item.productName}</div>
+              <div className="MobileName">{item.Name}</div>
               <div className="prices">
                 <div className="MobilePrice">${item.price}</div>
                 <div className="discount">${item.mrp}</div>

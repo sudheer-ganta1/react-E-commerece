@@ -51,9 +51,11 @@ const NavBar = () => {
           <div className="login">
             <i className="fas fa-user"></i>
           </div>
-          <div className="cart">
-            <i className="fas fa-shopping-cart"></i>
-          </div>
+          <Link to={"/cart"} className="link">
+            <div className="cart">
+              <i className="fas fa-shopping-cart"></i>
+            </div>
+          </Link>
         </div>
       </nav>
     </div>

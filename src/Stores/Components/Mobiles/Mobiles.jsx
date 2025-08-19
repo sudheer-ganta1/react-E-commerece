@@ -21,7 +21,7 @@ const Mobiles = () => {
                 </div>
               </Link>
 
-              <div className="MobileName">{item.mobileName}</div>
+              <div className="MobileName">{item.Name}</div>
               <div className="prices">
                 <div className="MobilePrice">${item.price}</div>
                 <div className="discount">${item.discountRate}</div>

@@ -20,11 +20,11 @@ const Computers = () => {
                   <img
                     className="MobileImgs"
                     src={item.Image}
-                    alt={item.computerName}
+                    alt={item.Name}
                   />
                 </div>
               </Link>
-              <div className="MobileName">{item.computerName}</div>
+              <div className="MobileName">{item.Name}</div>
               <div className="prices">
                 <div className="MobilePrice">${item.price}</div>
                 <div className="discount">${item.mrp}</div>

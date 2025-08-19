@@ -1,7 +1,7 @@
 export const WomenFashionData = [
   {
     id: 1,
-    productName: "Zara Floral Dress",
+    Name: "Zara Floral Dress",
     description: "Casual summer dress with floral print.",
     price: 2599,
     mrp: 3299,
@@ -10,7 +10,7 @@ export const WomenFashionData = [
   },
   {
     id: 2,
-    productName: "H&M Skinny Jeans",
+    Name: "H&M Skinny Jeans",
     description: "Stretch denim with high-rise fit.",
     price: 2299,
     mrp: 2999,
@@ -19,7 +19,7 @@ export const WomenFashionData = [
   },
   {
     id: 3,
-    productName: "Biba Anarkali Kurta",
+    Name: "Biba Anarkali Kurta",
     description: "Printed cotton Anarkali kurta with dupatta.",
     price: 3499,
     mrp: 4499,
@@ -28,7 +28,7 @@ export const WomenFashionData = [
   },
   {
     id: 4,
-    productName: "Allen Solly Blazer",
+    Name: "Allen Solly Blazer",
     description: "Slim fit casual blazer in pastel shade.",
     price: 4299,
     mrp: 5499,
@@ -37,56 +37,56 @@ export const WomenFashionData = [
   },
   {
     id: 5,
-    productName: "Forever 21 Crop Top",
+    Name: "Forever 21 Crop Top",
     description: "Trendy crop top for casual outings.",
     price: 1299,
     mrp: 1799,
-    Image: "/Images/WomenFashion/forever21croptop.webp",
+    Image: "/Images/WomenFashion/Zara Floral Dress.jpg", // reused from id:1
     category: "Tops",
   },
   {
     id: 6,
-    productName: "FabIndia Saree",
+    Name: "FabIndia Saree",
     description: "Handloom cotton saree with zari border.",
     price: 5499,
     mrp: 6999,
-    Image: "/Images/WomenFashion/fabindiasaree.webp",
+    Image: "/Images/WomenFashion/H&M Skinny Jeans.jpg", // reused from id:2
     category: "Ethnic Wear",
   },
   {
     id: 7,
-    productName: "Nike Sports Leggings",
+    Name: "Nike Sports Leggings",
     description: "Stretchable leggings with dri-fit fabric.",
     price: 2299,
     mrp: 2899,
-    Image: "/Images/WomenFashion/nikewomenleggings.webp",
+    Image: "/Images/WomenFashion/Biba Anarkali Kurta.jpg", // reused from id:3
     category: "Activewear",
   },
   {
     id: 8,
-    productName: "Mango Handbag",
+    Name: "Mango Handbag",
     description: "Stylish leather handbag with spacious compartments.",
     price: 3999,
     mrp: 4999,
-    Image: "/Images/WomenFashion/mangohandbag.webp",
+    Image: "/Images/WomenFashion/Allen Solly Blazer.jpg", // reused from id:4
     category: "Accessories",
   },
   {
     id: 9,
-    productName: "Clarks Heels",
+    Name: "Clarks Heels",
     description: "Elegant block heels for parties.",
     price: 3599,
     mrp: 4299,
-    Image: "/Images/WomenFashion/clarksheels.webp",
+    Image: "/Images/WomenFashion/Zara Floral Dress.jpg", // reused from id:1
     category: "Footwear",
   },
   {
     id: 10,
-    productName: "Only Denim Jacket",
+    Name: "Only Denim Jacket",
     description: "Light washed denim jacket with button closure.",
     price: 2999,
     mrp: 3799,
-    Image: "/Images/WomenFashion/onlydenimjacket.webp",
+    Image: "/Images/WomenFashion/H&M Skinny Jeans.jpg", // reused from id:2
     category: "Jackets",
   },
 ];

@@ -1,7 +1,7 @@
 export const MenFashionData = [
   {
     id: 1,
-    productName: "Levi’s Slim Fit Jeans",
+    Name: "Levi’s Slim Fit Jeans",
     description: "Stretchable denim with a modern slim fit.",
     price: 2999,
     mrp: 3999,
@@ -10,7 +10,7 @@ export const MenFashionData = [
   },
   {
     id: 2,
-    productName: "Nike Air Sports T-Shirt",
+    Name: "Nike Air Sports T-Shirt",
     description: "Breathable Dri-Fit fabric for workouts & casual wear.",
     price: 1999,
     mrp: 2499,
@@ -19,7 +19,7 @@ export const MenFashionData = [
   },
   {
     id: 3,
-    productName: "Raymond Formal Shirt",
+    Name: "Raymond Formal Shirt",
     description: "Premium cotton fabric, tailored slim fit.",
     price: 1799,
     mrp: 2299,
@@ -28,7 +28,7 @@ export const MenFashionData = [
   },
   {
     id: 4,
-    productName: "Woodland Leather Boots",
+    Name: "Woodland Leather Boots",
     description: "Durable boots with rugged sole for outdoor wear.",
     price: 4499,
     mrp: 5499,
@@ -37,56 +37,56 @@ export const MenFashionData = [
   },
   {
     id: 5,
-    productName: "Puma Joggers",
+    Name: "Puma Joggers",
     description: "Comfort fit joggers for gym & casual wear.",
     price: 2499,
     mrp: 2999,
-    Image: "/Images/MenFashion/pumajoggers.webp",
+    Image: "/Images/MenFashion/Levi’s Slim Fit Jeans.jpg", // reused from id:1
     category: "Bottomwear",
   },
   {
     id: 6,
-    productName: "Adidas Hoodie",
+    Name: "Adidas Hoodie",
     description: "Cotton blend hoodie for all-day comfort.",
     price: 3499,
     mrp: 3999,
-    Image: "/Images/MenFashion/adidashoodie.webp",
+    Image: "/Images/MenFashion/Nike Air Sports T-Shirt.jpg", // reused from id:2
     category: "Winterwear",
   },
   {
     id: 7,
-    productName: "US Polo Polo T-Shirt",
+    Name: "US Polo Polo T-Shirt",
     description: "Classic polo with embroidered logo.",
     price: 1599,
     mrp: 1999,
-    Image: "/Images/MenFashion/uspolo.webp",
+    Image: "/Images/MenFashion/Raymond Formal Shirt.jpg", // reused from id:3
     category: "T-Shirts",
   },
   {
     id: 8,
-    productName: "Jack & Jones Jacket",
+    Name: "Jack & Jones Jacket",
     description: "Slim fit bomber jacket with zip closure.",
     price: 4999,
     mrp: 5999,
-    Image: "/Images/MenFashion/jackjonesjacket.webp",
+    Image: "/Images/MenFashion/Woodland Leather Boots.jpg", // reused from id:4
     category: "Jackets",
   },
   {
     id: 9,
-    productName: "Van Heusen Blazer",
+    Name: "Van Heusen Blazer",
     description: "Tailored slim-fit single-breasted blazer.",
     price: 7999,
     mrp: 9999,
-    Image: "/Images/MenFashion/vanheusenblazer.webp",
+    Image: "/Images/MenFashion/Levi’s Slim Fit Jeans.jpg", // reused from id:1
     category: "Formals",
   },
   {
     id: 10,
-    productName: "Red Tape Sneakers",
+    Name: "Red Tape Sneakers",
     description: "Lightweight sneakers with cushioned sole.",
     price: 2699,
     mrp: 3499,
-    Image: "/Images/MenFashion/redtapesneakers.webp",
+    Image: "/Images/MenFashion/Nike Air Sports T-Shirt.jpg", // reused from id:2
     category: "Footwear",
   },
 ];

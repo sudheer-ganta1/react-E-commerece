@@ -13,17 +13,17 @@ const Ac = () => {
           return (
             <div className="Mainsection">
               <div className="" key={item.id}>
-                <div className="SectionName1">{item.acName}</div>
+                <div className="SectionName1">{item.Name}</div>
                 <Link to={`/Acmain/${item.id}`}>
                   <div className="DivImg">
-                    <img src={item.Image} alt={item.acName} />
+                    <img src={item.Image} alt={item.Name} />
                   </div>
                 </Link>
                 <div className="prices">
                   <div className="price">${item.price}</div>
                   <div className="">final price: ${item.mrp}</div>
                 </div>
-                <Link to={`/Acmain/${item.id}`}>
+                <Link to={`/Acmain/${item.id}`} className="link">
                   <div className="explore">
                     <button className="button">explore</button>
                   </div>

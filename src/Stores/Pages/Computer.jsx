@@ -12,17 +12,17 @@ const Computer = () => {
           return (
             <div className="Mainsection">
               <div className="" key={item.id}>
-                <div className="SectionName1">{item.computerName}</div>
+                <div className="SectionName1">{item.Name}</div>
                 <Link to={`/computer/${item.id}`}>
                   <div className="DivImg">
-                    <img src={item.Image} alt={item.computerName} />
+                    <img src={item.Image} alt={item.Name} />
                   </div>
                 </Link>
                 <div className="prices">
                   <div className="price">${item.price}</div>
                   <div className="">final price: ${item.mrp}</div>
                 </div>
-                <Link to={`/computer/${item.id}`}>
+                <Link to={`/computer/${item.id}`} className="link">
                   <div className="explore">
                     <button className="button">explore</button>
                   </div>
