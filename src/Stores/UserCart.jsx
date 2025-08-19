@@ -6,6 +6,10 @@ import "../App.css";
 const UserCart = () => {
   const { cartItems, removeFromCart } = useCart();
 
+  const totalAmount = cartItems.reduce((acc, item) => {
+    return acc + item.price * item.quantity;
+  }, 0);
+
   return (
     <div>
       <NavBar />
@@ -38,6 +42,10 @@ const UserCart = () => {
               </div>
             </div>
           ))}
+
+          <div className="total-section">
+            <h2>Total: ${totalAmount}</h2>
+          </div>
         </>
       )}
     </div>

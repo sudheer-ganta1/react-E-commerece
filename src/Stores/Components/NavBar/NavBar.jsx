@@ -47,10 +47,13 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
+
         <div className="right">
-          <div className="login">
-            <i className="fas fa-user"></i>
-          </div>
+          <Link to={"/user"} className="link">
+            <div className="login">
+              <i className="fas fa-user"></i>
+            </div>
+          </Link>
           <Link to={"/cart"} className="link">
             <div className="cart">
               <i className="fas fa-shopping-cart"></i>

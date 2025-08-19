@@ -1,0 +1,70 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #eef2ff, #dbeafe);
+  font-family: Arial, sans-serif;
+}
+
+.Login .ShopName {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formLogin {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.nameLogin {
+  margin-bottom: 20px;
+}
+
+.nameLogin label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.nameLogin input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.nameLogin input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 4px rgba(59, 130, 246, 0.4);
+}
+
+.down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #3b82f6;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.signup h5:hover {
+  text-decoration: underline;
+}

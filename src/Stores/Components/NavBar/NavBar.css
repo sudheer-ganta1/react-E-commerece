@@ -1,4 +1,3 @@
-/* =================== BASE STYLES =================== */
 .MainSection {
   height: 100%;
   width: 100%;
@@ -10,7 +9,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  flex-wrap: wrap; /* allow wrapping on small screens */
+  flex-wrap: wrap;
 }
 
 .ShopName {
@@ -111,9 +110,6 @@ li:hover {
   text-decoration: none;
 }
 
-/* =================== RESPONSIVENESS =================== */
-
-/* Large Tablets / Small Laptops */
 @media (max-width: 1024px) {
   .centre input {
     width: 350px;

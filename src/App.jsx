@@ -18,6 +18,7 @@ import MenPage from "./Stores/Components/SinglePages/MenPage";
 import WomenPage from "./Stores/Components/SinglePages/WomenPage";
 import AcPage from "./Stores/Components/SinglePages/AcPage";
 import UserCart from "./Stores/UserCart";
+import Login from "./Stores/Components/Login/Login";
 
 const App = () => {
   return (
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/women/:id" element={<WomenPage />} />
         <Route path="/Acmain/:id" element={<AcPage />} />
         <Route path="/cart" element={<UserCart />} />
+        <Route path="/User" element={<Login />} />
       </Routes>
     </>
   );
