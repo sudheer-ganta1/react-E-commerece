@@ -24,3 +24,27 @@ This project was created to strengthen my frontend development skills and learn 
 - **Version Control:** Git, GitHub
 
 ---
+
+## 🚢 Deploy
+
+### Netlify (recommended)
+
+1. SPA fallback is included at `public/_redirects`.
+2. Build and deploy:
+   - Build: `npm run build`
+   - Deploy via CLI: `npx netlify deploy --prod --dir=dist`
+   - Or connect the repo in Netlify UI. Build: `npm run build`, Publish: `dist`.
+
+### Vercel
+
+1. `vercel.json` includes SPA rewrite.
+2. Deploy: `npm run build && npx vercel --prod`
+
+### Docker
+
+1. Build and run:
+```
+docker build -t e-mart .
+docker run -p 8080:80 e-mart
+```
+Open http://localhost:8080
